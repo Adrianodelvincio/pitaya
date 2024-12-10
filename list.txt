@@ -1,0 +1,5 @@
+
+
+1 scintillator, Rf 1.1kHz at the PDS
+1 scintillator, Rf 3.3kHz at the BDS
+1 scintillator, Rf 1.1kHz at the UP-ATDS

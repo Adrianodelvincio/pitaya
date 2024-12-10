@@ -65,7 +65,7 @@ while ((time.time() - start_time) < ACQTime):
         rp_s.tx_txt(f'ACQ:TRig:LEV {Trigger_level}') # load trigger
         rp_s.tx_txt('ACQ:START')                     # start the new acquisition
         print("waiting new signal...")
-        #rp_s.tx_txt('ACQ:TRig CH1_PE') # dont need necessary to specify it again
+        rp_s.tx_txt('ACQ:TRig CH1_PE')
         time.sleep(0.5)
 
 for i, item in enumerate(eventlist):

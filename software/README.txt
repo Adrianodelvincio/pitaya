@@ -39,3 +39,9 @@ PDS and BDS go to red pitaya 1 (169.254.224.183)
 
 red pitaya 1 not in the zone
 red pitaya 2 not in the zone
+
+
+Inventario.
+Fare setup con macchina che ci da INA.
+Installare due scintillatori alla PDS, da 1k, uno fisso e uno mobile.
+Sincronizzazione.

@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.optimize import brentq
 
 datafile = str(sys.argv[1])
+COLOR = str(sys.argv[2])
 y = np.loadtxt(datafile, unpack = True)
 
 y = y[(8192 - 20):(8320)]
@@ -46,7 +47,7 @@ print(f"width:             {width} nS")
 plt.figure(1)
 plt.title(datafile, fontsize = 15)
 plt.xlim(650,1000)
-plt.errorbar(t,y, linestyle = '', marker = 'x', color = 'red')
+plt.errorbar(t,y, linestyle = '', marker = 'x', color = COLOR)
 plt.axvline(t_10, linestyle = '--', color = "grey")
 plt.axvline(t_90, linestyle = '--', color = "grey")
 plt.plot(t_fine, y_fine, marker = '', linestyle = '-', color = 'black')
